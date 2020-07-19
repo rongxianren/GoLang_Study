@@ -8,6 +8,6 @@ import (
 func main() {
 	fmt.Println("haha this is a modules")
 
-	myreflect.PrintStructInfo()
+	go myreflect.PrintStructInfo()
 
 }
